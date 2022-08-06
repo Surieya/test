@@ -1,0 +1,136 @@
+body{
+    display:flex;
+    flex-direction:column;
+    font-family:'Roboto Slab', serif;
+    background-color:rgba(238, 232, 232, 0.4);
+
+}
+.nav-box{
+    height:100px;
+    width:100%;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+}
+.smileimg{
+    height:100px;
+    width:100px;
+    margin:2px 0px 15px 20px;
+    border-radius:60px;
+}
+.nav-list{
+    display:flex;
+    justify-content:space-around;   
+}
+a{
+    color:black;
+    text-decoration:none;
+    
+}
+a:visited{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    color:red;
+    text-decoration:none;
+}
+li{
+    margin:5px;
+    list-style-type:none;
+}
+.hero{
+    width:100%;
+    border-radius:20px;
+    margin:0 0 0 0;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.hero-info{
+     
+     max-width:600px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+     margin:0 0 0 30px;
+}
+.testcase1{
+    height:450px;
+    width:450px;
+}
+.vectorimg{
+    height:450px;
+    width:450px;
+
+}
+#name{
+    color:black;
+    text-align:left;
+    text-shadow:2px 2px 2px violet;
+    font-size:4rem;
+}
+.button{
+    background-color:black;
+    color:whitesmoke;
+    height:50px;
+    width:100px;
+    font-size:18px;
+    text-align:center;
+    line-height:2.5;
+    border-radius:20px;
+    box-shadow: inset -3px 2px 3px rgba(255,255,255,0.2),inset 3px -2px  3px rgba(0,0,0,0.6);
+}
+.button:active{
+    box-shadow:inset 3px -3px 3px rgba(255,255,255,0.8);
+}
+.button:hover{
+    background-color:grey;
+}
+
+section{
+    width:100%;
+    background-color:rgb(218, 214, 214);
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.aboutme{
+    width:400px;
+    margin:5px;
+    display:flex;
+    justify-content:space-around;
+}
+.information{
+    width:100%;
+    margin:0px 5px 0px 5px;
+    font-size:20px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.abtmeheading{
+    text-shadow: 2px 2px 3px violet;
+    font-size:4rem;
+}
+.abtli{
+    margin:1rem 0 0 0;
+    font-size:3rem;
+    margin:4rem 0 0 2rem;
+
+}
+.image{
+    height:28em;
+    width:22em;
+    border-radius:50%;
+}
+.achieveheading{
+    font-size:4rem;
+    text-shadow:2px 2px 3px violet;
+}
+
